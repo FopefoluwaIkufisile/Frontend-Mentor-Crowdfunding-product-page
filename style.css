@@ -48,6 +48,9 @@ body {
   background: rgba(0, 0, 0, 0.3);
   display: none;
 }
+.show-modal{
+  display: flex;
+}
 .modal-box {
   position: absolute;
   top: 60px;
@@ -63,7 +66,6 @@ body {
   gap: 20px;
   max-height: 90vh;
   overflow-y: auto;
-  display: none;
 }
 .thank-you-box {
   overflow: visible;
@@ -81,6 +83,10 @@ body {
   text-align: center;
   max-height: 90vh;
   overflow-y: auto;
+  display: none;
+}
+.show-modal{
+  display: flex;
 }
 .thanks-info {
   color: hsl(0, 1%, 65%);
@@ -187,6 +193,9 @@ body {
   justify-content: space-between;
   align-items: center;
   display: none;
+}
+.pledge:has(input:checked) .bottom-p{
+  display: flex;
 }
 .show-flex {
   display: flex;
